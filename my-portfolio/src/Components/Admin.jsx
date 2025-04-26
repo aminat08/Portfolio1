@@ -31,7 +31,7 @@ const AdminForm = () => {
         throw new Error("Something went wrong!");
       }
 
-      const data = await response.text();
+      // const data = await response.text();
       alert("Admin added successfully!");
     } catch (error) {
       setError(error.message);

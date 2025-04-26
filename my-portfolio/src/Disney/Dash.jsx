@@ -37,7 +37,7 @@ const Dash = () => {
       }
     };
     fetchDisney();
-  }, []);
+  }, [data]);
 
   return (
     <div style={{ fontFamily: 'cursive' }}>

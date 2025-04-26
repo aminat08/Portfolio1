@@ -8,6 +8,7 @@ import News from "./Components/News";
 import Login from "./Student/Login";
 import Log from "./Disney/Login";
 import Dash from "./Disney/Dash"
+import Mood from "./moodtracker/Mood"
 const App = () =>{
   return(
     <Router>
@@ -21,6 +22,7 @@ const App = () =>{
         <Route path="/login" element={<Login />} />
         <Route path="/log" element={<Log/>} />
         <Route path="/dash" element={<Dash/>} />
+        <Route path="/" element={<Mood/>} />
        
       </Routes>
     </Router>
